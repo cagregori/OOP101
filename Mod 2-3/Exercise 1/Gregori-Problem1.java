@@ -25,7 +25,7 @@ public class Problem1 {
         studentProgram = scanner.nextLine(); // Consume the newline character
 
       //Get year level integer
-        System.out.print("Enter an integer: ");
+        System.out.print("Enter your year level: ");
         studentYearLevel = scanner.nextInt();
 
       //Get GPA double
