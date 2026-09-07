@@ -1,3 +1,4 @@
+package com.mycompany.exercise1;
 //Gregori, Christian Jowell A. TA21
 
 import java.util.Scanner;
