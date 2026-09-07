@@ -5,29 +5,32 @@ import java.util.Scanner;
 public class Problem1 {
     public static void main(String[] args) {    
         Scanner scanner = new Scanner(System.in);
+        
+        String studentName;
+        String studentNum;
+        String studentProgram;
+        int studentYearLevel;
+        double studentGPA;
 
       //Get name string
         System.out.print("Enter your name: ");
-        scanner.nextLine(); // Consume the newline character
-        String studentName = scanner.nextLine();
+        studentName = scanner.nextLine(); // Consume the newline character
 
       //Get student number string
         System.out.print("Enter your student number: ");
-        scanner.nextLine(); // Consume the newline character
-        String studentNum = scanner.nextLine();
+        studentNum = scanner.nextLine(); // Consume the newline character
 
       //Get program name string
         System.out.print("Enter your program: ");
-        scanner.nextLine(); // Consume the newline character
-        String studentProgram = scanner.nextLine();
+        studentProgram = scanner.nextLine(); // Consume the newline character
 
       //Get year level integer
         System.out.print("Enter an integer: ");
-        int studentYearLevel = scanner.nextInt();
+        studentYearLevel = scanner.nextInt();
 
       //Get GPA double
         System.out.print("Enter your GPA: ");
-        double studentGPA = scanner.nextDouble();
+        studentGPA = scanner.nextDouble();
 
         // Displaying the input values
         System.out.println("Name: " + studentName);
