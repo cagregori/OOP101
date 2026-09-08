@@ -12,23 +12,23 @@ public class Problem3 {
         int yearMod;
         double displacement;
 
-        //Get name string
+        //Get brand name
         System.out.print("Enter vehicle brand name: ");
         brand = scanner.nextLine();
 
-        //Get student number string
+        //Get vehicle model
         System.out.print("Enter vehicle model: ");
         model = scanner.nextLine();
 
-        //Get student number string
+        //Get plate number
         System.out.print("Enter vehicle plate number: ");
         plateNum = scanner.nextLine();
 
-        //Get year level integer
+        //Get vehicle year model
         System.out.print("Enter vehicle year model: ");
         yearMod = scanner.nextInt();
 
-        //Get GPA double
+        //Get engine displacement
         System.out.print("Enter engine displacement: ");
         displacement = scanner.nextDouble();
 
