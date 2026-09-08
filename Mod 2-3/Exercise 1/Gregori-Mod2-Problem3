@@ -1,0 +1,46 @@
+//Gregori, Christian Jowell A. TA21
+
+import java.util.Scanner;
+
+public class Mod2Prob3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String brand;
+        String model;
+        String plateNum;
+        int yearMod;
+        double displacement;
+
+        //Get name string
+        System.out.print("Enter vehicle brand name: ");
+        brand = scanner.nextLine();
+
+        //Get student number string
+        System.out.print("Enter vehicle model: ");
+        model = scanner.nextLine();
+
+        //Get student number string
+        System.out.print("Enter vehicle plate number: ");
+        plateNum = scanner.nextLine();
+
+        //Get year level integer
+        System.out.print("Enter vehicle year model: ");
+        yearMod = scanner.nextInt();
+
+        //Get GPA double
+        System.out.print("Enter engine displacement: ");
+        displacement = scanner.nextDouble();
+
+        // Displaying the input values
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Plate: " + plateNum);
+        System.out.println("Year: " + yearMod);
+        System.out.printf("Engine: %.1f L", displacement);
+
+        // Closing the scanner
+        scanner.close();
+
+    }
+}
