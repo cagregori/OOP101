@@ -6,7 +6,7 @@ public class Mod3Prob1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        double hrsWorked; int hrlyRate;
+        double hrsWorked; double hrlyRate;
 
         //Get hours worked integer
         System.out.print("Enter hours worked: ");
@@ -14,7 +14,7 @@ public class Mod3Prob1 {
 
         //Get hourly rate integer
         System.out.print("Enter hourly rate: ");
-        hrlyRate = scanner.nextInt();
+        hrlyRate = scanner.nextDouble();
 
         System.out.println();
         System.out.println("Gross Salary = " + (hrsWorked*hrlyRate));
