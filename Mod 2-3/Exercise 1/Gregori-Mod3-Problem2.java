@@ -10,25 +10,25 @@ public class Mod3Prob2 {
 
         double subtotal; double vat; double total;
 
-        //Get product price
+        //Get hours worked integer
         System.out.print("Enter product price: ");
         productPrice = scanner.nextDouble();
 
-        //Get quantity
+        //Get hourly rate integer
         System.out.print("Enter quantity: ");
         quantity = scanner.nextInt();
 
-        //Calculate subtotal, vat, and total
         subtotal = productPrice * quantity;
         vat = subtotal * 0.12;
         total = subtotal + vat;
 
-        //Display data output
+        System.out.println();
         System.out.printf("Subtotal: %.2f%n", subtotal);
         System.out.printf("VAT: %.4f%n", vat);
         System.out.printf("Total: %.4f%n", total);
 
         // Closing the scanner
         scanner.close();
+
     }
 }
