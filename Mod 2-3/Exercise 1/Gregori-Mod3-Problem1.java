@@ -16,6 +16,7 @@ public class Mod3Problem1 {
       System.out.print("Enter hours worked: ");
       hrlyRate = scanner.nextInt();
 
+      System.out.println();
       System.out.println("Gross Salary = " + (hrsWorked*hrlyRate));
     }
 }
