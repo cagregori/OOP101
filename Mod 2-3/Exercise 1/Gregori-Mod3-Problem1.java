@@ -6,11 +6,11 @@ public class Mod3Problem1 {
     public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
       
-      int hrsWorked; int hrlyRate;
+      double hrsWorked; int hrlyRate;
 
-      //Get hours worked integer
+        //Get hours worked integer
       System.out.print("Enter hours worked: ");
-      hrsWorked = scanner.nextInt();
+      hrsWorked = scanner.nextDouble();
 
       //Get hourly rate integer
       System.out.print("Enter hours worked: ");
