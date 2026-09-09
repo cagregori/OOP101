@@ -27,6 +27,7 @@ public class Problem2 {
         servingSize = scanner.nextInt();
 
         // Displaying the input values
+        System.out.println();
         System.out.println("Item: " + itemName);
         System.out.println("Category: " + category);
         System.out.printf("Price: PHP %.1f%n", price);
