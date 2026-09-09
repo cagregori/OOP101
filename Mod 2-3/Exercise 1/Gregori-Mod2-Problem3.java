@@ -33,6 +33,7 @@ public class Problem3 {
         displacement = scanner.nextDouble();
 
         // Displaying the input values
+        System.out.println();
         System.out.println("Brand: " + brand);
         System.out.println("Model: " + model);
         System.out.println("Plate: " + plateNum);
