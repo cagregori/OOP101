@@ -32,6 +32,7 @@ public class Problem1 {
         studentGPA = scanner.nextDouble();
 
         // Displaying the input values
+        System.out.println();
         System.out.println("Name: " + studentName);
         System.out.println("Student Number: " + studentNum);
         System.out.println("Program: " + studentProgram);
